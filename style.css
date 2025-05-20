@@ -1,3 +1,16 @@
 body {
+  background-color: #d4cff1;
+}
 
+h2 {  
+  color: #8d7cef;
+    text-shadow: 2px 2px 8px #FF0000;
+    text-decoration: underline;
+  text-decoration-color: purple;
+   text-emphasis: filled;
+}
+
+img:hover {
+  width: 300px;
+  filter: contrast(50%);
 }
