@@ -3,7 +3,6 @@ body {
 }
 
 h2 {  
-  
   color: #8d7cef;
     text-shadow: 2px 2px 8px #FF0000;
     text-decoration: underline;
@@ -14,4 +13,26 @@ h2 {
 img:hover {
   width: 300px;
   filter: contrast(50%);
+}
+
+nav {
+  list-style-type: none;
+  width: 100%; 
+  background-color: #f5c0e3;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  font-size: 25px; 
+}
+
+li a {
+  color: #ad32b7;
+  display: block;
+  padding: 28px 237px;
+  float: left;
+}
+
+li a:hover {
+  background-color: #abd48c
+    
 }
